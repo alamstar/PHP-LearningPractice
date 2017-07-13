@@ -20,6 +20,13 @@
 	var_dump($days);
 	echo "<br/><br/>";
 	
+	//Elaboration of a NULL value.
+	$n = null; // NULL value is actually no value. Not even zero. Zero is also a value. But NULL means nothing.
+	var_dump($n);
+	echo "</br>";
+	echo $n . "No value";
+	echo "<br/><br/>";
+	
 	var_dump(print "Hello <br/>"); /* data type of print() function. actually it's not of print() it is of the value it's 
 									returning. */
 									
